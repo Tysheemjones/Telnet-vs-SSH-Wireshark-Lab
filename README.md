@@ -31,19 +31,6 @@ This project highlights a critical cybersecurity concept: insecure protocols lik
 I initiated a Telnet session while capturing traffic in Wireshark.
 
 Filter used:
+
 ```text
-tcp.port == 23# Telnet-vs-SSH-Wireshark-Lab
-Hands-on Wireshark lab demonstrating plaintext credential exposure in Telnet vs encrypted SSH traffic through packet capture and TCP stream analysis.
-## Screenshots
-
-### Telnet Packet Capture
-![Telnet Packet Capture](screenshots/telnet-packet-capture.png)
-
-### Telnet TCP Stream (Plaintext Exposure)
-![Telnet TCP Stream](screenshots/telnet-tcp-stream.png)
-
-### SSH Packet Capture
-![SSH Packet Capture](screenshots/ssh-packet-capture.png)
-
-### SSH TCP Stream (Encrypted Data)
-![SSH TCP Stream](screenshots/ssh-tcp-stream.png)
+tcp.port == 23
